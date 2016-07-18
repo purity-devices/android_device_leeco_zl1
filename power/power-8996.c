@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2015, The Linux Foundation. All rights reserved.
+ * Copyright (c) 2015-2016, The Linux Foundation. All rights reserved.
  *
  * Redistribution and use in source and binary forms, with or without
  * modification, are permitted provided that the following conditions are
@@ -209,12 +209,10 @@ static int process_video_encode_hint(void *metadata)
              * 3. hysteresis optimization
              *    -bus dcvs hysteresis tuning
              *    -sample_ms of 10 ms
-             *    -disable ignore_hispeed_notif
              *    -sLVT hispeed freq to 806MHz
              */
             int resource_values[] = {
-                0x41810000, 0x9C4, 0x41814000, 0x32, 0x4180C000, 0x0, 0x41820000, 0xA,
-                0x41438100, 0x1,  0x41438000, 0x1 };
+                0x41810000, 0x9C4, 0x41814000, 0x32, 0x4180C000, 0x0, 0x41820000, 0xA};
 
             perform_hint_action(video_encode_metadata.hint_id,
                     resource_values, sizeof(resource_values)/sizeof(resource_values[0]));
@@ -334,3 +332,4 @@ int set_interactive_override(struct power_module *module, int on)
     }
     return HINT_NONE;
 }
+
