@@ -138,7 +138,8 @@ PRODUCT_PACKAGES += \
 
 # Fingerprint sensor
 PRODUCT_PACKAGES += \
-    fingerprintd
+    fingerprintd \
+    fingerprint.msm8996
 
 # GPS
 PRODUCT_PACKAGES += \
