@@ -429,4 +429,12 @@
         <item>"/system/framework/arm64/boot.oat"</item>
         <item>"/system/framework/arm64/boot-core-libart.oat"</item>
    </string-array> -->
+
+    <!-- Override the default detection behavior for the framework method
+         android.view.ViewConfiguration#hasPermanentMenuKey().
+         Valid settings are:
+         0 - No change. Use the default autodetection behavior.
+         1 - The device DOES have a permanent menu key; ignore autodetection.
+         2 - The device DOES NOT have a permanent menu key; ignore autodetection. -->
+    <integer name="config_overrideHasPermanentMenuKey">2</integer>
 </resources>
