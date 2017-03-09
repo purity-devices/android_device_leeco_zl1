@@ -26,6 +26,9 @@ $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 PRODUCT_PACKAGES += \
+    omni_charger_res_images
+
+PRODUCT_PACKAGES += \
     com.android.future.usb.accessory
 
 # Live Wallpapers
@@ -299,3 +302,4 @@ PRODUCT_PACKAGES += \
 #PRODUCT_PACKAGES += \
     qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml \
     qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml
+
