@@ -117,6 +117,7 @@ char const*const RGB_BLINK_FILE
 static int BRIGHTNESS_RAMP[RAMP_SIZE];
 #define RAMP_STEP_DURATION 50
 
+#define MAX_BUTTON_BRIGHTNESS 40
 /**
  * device methods
  */
@@ -213,6 +214,8 @@ set_light_buttons(struct light_device_t *dev,
     if(!dev) {
         return -1;
     }
+    // Scale the brihgtness to between 0-40, as 40 is the max
+    brightness = ((float) brightness / 255.0) * MAX_BUTTON_BRIGHTNESS;
     pthread_mutex_lock(&g_lock);
     ALOGV("%s: brightness=%d", __func__, brightness);
     err = write_int(BUTTONS_FILE, brightness);
