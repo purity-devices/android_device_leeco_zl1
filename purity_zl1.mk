@@ -24,16 +24,15 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 
 # Get the prebuilt list of APNs
-$(call inherit-product, vendor/omni/config/gsm.mk)
+$(call inherit-product, vendor/purity/config/gsm.mk)
 
 # Inherit from the common Open Source product configuration
 $(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
-# must be before including omni part
 TARGET_BOOTANIMATION_SIZE := 1080x720
 
 # Inherit from our custom product configuration
-$(call inherit-product, vendor/omni/config/common.mk)
+$(call inherit-product, vendor/purity/config/common.mk)
 
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/leeco/zl1/device.mk)
@@ -46,7 +45,21 @@ PRODUCT_COPY_FILES += \
     bionic/libc/zoneinfo/tzdata:recovery/root/system/usr/share/zoneinfo/tzdata
 
 # Discard inherited values and use our own instead.
-PRODUCT_NAME := omni_zl1
+PRODUCT_NAME := purity_zl1
 PRODUCT_DEVICE := zl1
 PRODUCT_BRAND := LeEco
-PRODUCT_MANUFACTURER := LeMobile
+PRODUCT_MANUFACTURER := LeEco
+
+PRODUCT_GMS_CLIENTID_BASE := android-leeco
+
+TARGET_VENDOR_PRODUCT_NAME := LePro3
+TARGET_VENDOR_DEVICE_NAME := le_zl1
+PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=le_zl1 PRODUCT_NAME=LePro3
+
+PRODUCT_BUILD_PROP_OVERRIDES += \
+    BUILD_FINGERPRINT=LeEco/le_zl1/LePro3:6.0.1/MMB29M/362280:user/release-keys \
+    PRIVATE_BUILD_DESC="LePro3-user 6.0.1 MMB29M 24 dev-keys"
+
+PRODUCT_SYSTEM_PROPERTY_BLACKLIST += ro.product.model
+
+TARGET_VENDOR := leeco
