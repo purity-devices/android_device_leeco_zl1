@@ -25,8 +25,8 @@ $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-PRODUCT_PACKAGES += \
-    custom_charger_res_images
+# Charger
+WITH_CM_CHARGER := true
 
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory
