@@ -48,6 +48,18 @@
     "revision": "android-7.1"
   },
   {
+    "remote": "donkeycoyote",
+    "repository": "proprietary_vendor_qcom_binaries",
+    "target_path": "vendor/qcom/binaries",
+    "revision": "cm-14.1"
+  },
+  {
+    "remote": "donkeycoyote",
+    "repository": "proprietary_vendor_leeco",
+    "target_path": "vendor/leeco",
+    "revision": "android-7.1"
+  },
+  {
     "remote": "omnirom",
     "repository": "android_vendor_nxp-nfc_opensource_frameworks",
     "target_path": "vendor/nxp-nfc/opensource/frameworks",
