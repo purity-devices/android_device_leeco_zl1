@@ -125,12 +125,13 @@
     </bit_width_configs>
 
     <native_configs>
-        <feature name="NATIVE_AUDIO_44.1" codec_support="1"/>
+        <feature name="NATIVE_AUDIO_44.1" codec_support="true"/>
     </native_configs>
 
     <backend_names>
         <device name="SND_DEVICE_OUT_SPEAKER" backend="smartpa" />
         <device name="SND_DEVICE_OUT_HANDSET" backend="smartpa-handset" />
+        <device name="SND_DEVICE_OUT_HEADPHONES_44_1" backend="headphones-44.1" interface="SLIMBUS_5_RX" />
         <device name="SND_DEVICE_OUT_VOICE_HANDSET" backend="smartpa-handset" />
         <device name="SND_DEVICE_OUT_VOICE_SPEAKER" backend="smartpa" />
         <device name="SND_DEVICE_OUT_VOLTE_NB_SPEAKER" backend="smartpa" />
