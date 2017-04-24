@@ -48,18 +48,6 @@
     "revision": "android-7.1"
   },
   {
-    "remote": "donkeycoyote",
-    "repository": "proprietary_vendor_qcom_binaries",
-    "target_path": "vendor/qcom/binaries",
-    "revision": "cm-14.1"
-  },
-  {
-    "remote": "donkeycoyote",
-    "repository": "proprietary_vendor_leeco",
-    "target_path": "vendor/leeco",
-    "revision": "android-7.1"
-  },
-  {
     "remote": "omnirom",
     "repository": "android_vendor_nxp-nfc_opensource_frameworks",
     "target_path": "vendor/nxp-nfc/opensource/frameworks",
@@ -78,6 +66,7 @@
     "revision": "android-7.1"
   },
   {
+    "remote": "omnirom",
     "repository": "android_external_ant-wireless_antradio-library",
     "target_path": "external/ant-wireless/antradio-library",
     "revision": "android-7.1"
@@ -98,6 +87,18 @@
     "remote": "omnirom",
     "repository": "android_kernel_leeco_zl1",
     "target_path": "kernel/leeco/zl1",
+    "revision": "android-7.1"
+  },
+  {
+    "remote": "github",
+    "repository": "DonkeyCoyote/proprietary_vendor_qcom_binaries",
+    "target_path": "vendor/qcom/binaries",
+    "revision": "cm-14.1"
+  },
+  {
+    "remote": "github",
+    "repository": "DonkeyCoyote/proprietary_vendor_leeco",
+    "target_path": "vendor/leeco",
     "revision": "android-7.1"
   }
 ]
