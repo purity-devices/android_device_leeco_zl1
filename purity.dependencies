@@ -84,8 +84,8 @@
     "revision": "android-7.1"
   },
   {
-    "remote": "omnirom",
-    "repository": "android_kernel_leeco_zl1",
+    "remote": "github",
+    "repository": "purity-devices/android_kernel_leeco_zl1",
     "target_path": "kernel/leeco/zl1",
     "revision": "android-7.1"
   },
