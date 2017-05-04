@@ -437,4 +437,7 @@
          1 - The device DOES have a permanent menu key; ignore autodetection.
          2 - The device DOES NOT have a permanent menu key; ignore autodetection. -->
     <integer name="config_overrideHasPermanentMenuKey">2</integer>
+
+    <!-- Whether notify fingerprint client of successful cancelled authentication -->
+    <bool name="config_notifyClientOnFingerprintCancelSuccess">true</bool>
 </resources>
