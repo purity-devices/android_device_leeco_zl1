@@ -9,8 +9,8 @@
     <string name="torch_title_head">Torcia</string>
     <string name="torch_summary_head">Disegna una  \"V\" per attivare la torcia</string>
     <string name="category_vibrator">Vibrazione</string>
-    <string name="vib_strength_title_head">Lunghezza</string>
-    <string name="vib_strength_summary_head">Definisci la lunghezza della vibrazione</string>
+    <string name="vib_strength_title_head">Intensità</string>
+    <string name="vib_strength_summary_head">Definisci l\' intensità della vibrazione</string>
     <string name="vib_test">Prova</string>
     <string name="buttons_title">Pulsanti</string>
     <string name="swap_back_recents_title">Inverti il pulsante indietro e recenti</string>
