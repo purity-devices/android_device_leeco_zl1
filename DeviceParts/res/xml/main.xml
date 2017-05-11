@@ -35,7 +35,7 @@
 -->
 	<PreferenceCategory
         android:title="@string/buttons_title">
-		<CheckBoxPreference
+		<SwitchPreference
 			android:key="swap_back_recents"
 			android:summary="@string/swap_back_recents_summary"
 			android:title="@string/swap_back_recents_title"

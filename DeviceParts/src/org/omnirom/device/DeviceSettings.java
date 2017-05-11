@@ -25,7 +25,7 @@ import android.preference.Preference;
 import android.preference.PreferenceActivity;
 import android.preference.PreferenceCategory;
 import android.preference.PreferenceScreen;
-import android.preference.TwoStatePreference;
+import android.preference.SwitchPreference;
 import android.provider.Settings;
 import android.view.MenuItem;
 import android.util.Log;
@@ -37,7 +37,7 @@ public class DeviceSettings extends PreferenceActivity implements
     private static final String KEY_SWAP_BACK_RECENTS = "swap_back_recents";
 
     private VibratorStrengthPreference mVibratorStrength;
-    private TwoStatePreference mSwapBackRecents;
+    private SwitchPreference mSwapBackRecents;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -51,7 +51,7 @@ public class DeviceSettings extends PreferenceActivity implements
             mVibratorStrength.setEnabled(VibratorStrengthPreference.isSupported());
         }
 
-        mSwapBackRecents = (TwoStatePreference) findPreference(KEY_SWAP_BACK_RECENTS);
+        mSwapBackRecents = (SwitchPreference) findPreference(KEY_SWAP_BACK_RECENTS);
         mSwapBackRecents.setChecked(Settings.System.getInt(getContentResolver(),
                     Settings.System.BUTTON_SWAP_BACK_RECENTS, 0) != 0);
 
