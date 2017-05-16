@@ -343,6 +343,9 @@ net.dns2=8.8.4.4
 # ATFWD
 persist.radio.atfwd.start=false
 
+#disable swap for dexpreopt
+dalvik.vm.dex2oat-swap=false
+
 # Product
 ro.config.product=le_zl1
 ro.config.le_hardware_version=HW_1.0.0
