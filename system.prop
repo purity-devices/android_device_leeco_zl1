@@ -21,12 +21,7 @@ DEVICE_PROVISIONED=1
 # Start in global mode
 ro.telephony.default_network=22,22
 telephony.lteOnGsmDevice=1
-
-debug.sf.hw=1
-debug.egl.hw=1
 debug.gralloc.enable_fb_ubwc=1
-dev.pm.dyn_samplingrate=1
-persist.demo.hdmirotationlock=false
 
 #ro.hdmi.enable=true
 #persist.speaker.prot.enable=false
@@ -127,7 +122,6 @@ persist.data.df.dev_name=rmnet_usb0
 #property to enable user to access Google WFD settings
 persist.debug.wfd.enable=1
 ##property to choose between virtual/external wfd display
-persist.sys.wfd.virtual=0
 sdm.perf_hint_window=50
 
 
@@ -233,8 +227,6 @@ ro.dbg.coresight.config=stm_events
 
 #default pd_enable value
 persist.sys.pd_enable=0
-#Disable rotator split feature
-sdm.debug.disable_rotator_split=1
 
 #Increase cached app limit
 ro.sys.fw.bg_apps_limit=60
