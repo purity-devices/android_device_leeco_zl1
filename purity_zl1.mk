@@ -37,6 +37,8 @@ $(call inherit-product, vendor/purity/config/common.mk)
 # Inherit from hardware-specific part of the product configuration
 $(call inherit-product, device/leeco/zl1/device.mk)
 
+TARGET_UNIFIED_DEVICE := true
+
 # SELinux
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.selinux=1
