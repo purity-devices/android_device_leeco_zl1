@@ -279,6 +279,8 @@ persist.sys.sar_mode=1
 
 #The MTP device name show on PC
 ro.le.mtpname=Le Pro3
+ro.cutoff_voltage_mv=3250
+
 
 # This is used for hardware info in CT carrier build
 ro.config.le_hardware_version=HW_1.0.0
@@ -347,7 +349,6 @@ dalvik.vm.dex2oat-swap=false
 
 # Product
 ro.config.product=le_zl1
-ro.config.le_hardware_version=HW_1.0.0
 ro.display.series=Le Pro3
 
 # Fingerprint

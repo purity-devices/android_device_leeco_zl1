@@ -142,6 +142,7 @@ void vendor_load_properties()
 
 	if (isLEX720)
 	{
+           // Set the main properties for the Chinese variant.
            property_set("persist.multisim.config", "dsds");
            property_set("persist.radio.multisim.config", "dsds");
            property_set("ro.telephony.default_network", "22,22");
@@ -154,6 +155,7 @@ void vendor_load_properties()
            property_set("ro.build.description", "le_zl1-user 6.0.1 WEXNAOP5802012101S eng.letv.20161210.014420 release-keys");
            property_set("ro.build.fingerprint", "LeEco/ZL1_NA/le_zl1:6.0.1/WEXNAOP5802012101S/letv12100148:user/release-keys");
         } else {
+           // Set the main properties for the American variant.
            property_set("persist.multisim.config", "NA");
            property_set("persist.radio.multisim.config", "NA");
            property_set("persist.sys.timezone", "America/Los_Angeles");
@@ -172,4 +174,3 @@ void vendor_load_properties()
     }
     init_alarm_boot_properties();
 }
-

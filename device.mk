@@ -188,6 +188,10 @@ PRODUCT_COPY_FILES += \
     frameworks/av/media/libstagefright/data/media_codecs_google_telephony.xml:system/etc/media_codecs_google_telephony.xml \
     frameworks/av/media/libstagefright/data/media_codecs_google_video.xml:system/etc/media_codecs_google_video.xml
 
+# MTP
+PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
+    persist.sys.usb.config=mtp
+
 # NFC
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
@@ -258,7 +262,8 @@ PRODUCT_COPY_FILES += \
 
 # For android_filesystem_config.h
 PRODUCT_PACKAGES += \
-    fs_config_files
+    fs_config_files \
+    fs_config_dirs
 
 # Sensors
 PRODUCT_PACKAGES += \
