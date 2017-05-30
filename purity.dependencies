@@ -85,8 +85,8 @@
   },
   {
     "remote": "github",
-    "repository": "purity-devices/android_kernel_leeco_zl1",
-    "target_path": "kernel/leeco/zl1",
+    "repository": "purity-devices/android_kernel_leeco_msm8996",
+    "target_path": "kernel/leeco/msm8996",
     "revision": "android-7.1"
   },
   {
