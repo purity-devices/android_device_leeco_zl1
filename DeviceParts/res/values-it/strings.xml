@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Find 7</string>
+    <string name="app_name">Le Pro 3</string>
     <string name="category_gestures_title">Gesture da schermo spento</string>
     <string name="double_tap_wake_title_head">Doppio tocco</string>
     <string name="double_tap_wake_summary_head">Effettua un doppio tocco sullo schermo per attivare il device</string>
@@ -15,4 +15,13 @@
     <string name="buttons_title">Pulsanti</string>
     <string name="swap_back_recents_title">Inverti il pulsante indietro e recenti</string>
     <string name="advanced_settings">Avanzate</string>
+    <string name="kcal_title">Colori Display</string>
+    <string name="kcal_summary">Calibrazione dei colori dello schermo usando KCAL</string>
+    <string name="kcal_enabled_title">Abilita KCAL</string>
+    <string name="kcal_enabled_summary">Attiva la calibrazione dello schermo usando KCAL</string>
+    <string name="kcal_red">Rosso</string>
+    <string name="kcal_green">Verde</string>
+    <string name="kcal_blue">Blu</string>
+    <string name="kcal_saturation">Saturazione</string>
+    <string name="kcal_contrast">Constrasto</string>
 </resources>
