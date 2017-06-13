@@ -293,6 +293,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcommon_time_client
 
+#wifi
+PRODUCT_PACKAGES += \
+    libwifi-hal-qcom
+
 #qdcm
 #PRODUCT_PACKAGES += \
     qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml \
