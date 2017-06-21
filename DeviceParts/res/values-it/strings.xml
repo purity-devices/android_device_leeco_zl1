@@ -24,4 +24,5 @@
     <string name="kcal_blue">Blu</string>
     <string name="kcal_saturation">Saturazione</string>
     <string name="kcal_contrast">Constrasto</string>
+    <string name="graphics_title">Grafica</string>
 </resources>
