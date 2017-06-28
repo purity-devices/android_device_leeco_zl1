@@ -289,6 +289,11 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcommon_time_client
 
+# SDCARDFS
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sys.sdcardfs=true \
+    ro.sdcardfs.enable=true
+
 #wifi
 PRODUCT_PACKAGES += \
     libwifi-hal-qcom
