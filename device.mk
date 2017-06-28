@@ -25,9 +25,6 @@ $(call inherit-product, frameworks/native/build/phone-xxhdpi-2048-hwui-memory.mk
 
 DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
-# Charger
-WITH_CM_CHARGER := true
-
 PRODUCT_PACKAGES += \
     com.android.future.usb.accessory
 
@@ -102,8 +99,7 @@ PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,device/leeco/zl1/prebuilt/system,system)
 
 PRODUCT_AAPT_CONFIG := normal
-PRODUCT_AAPT_PREF_CONFIG := 420dpi
-PRODUCT_AAPT_PREBUILT_DPI := xxhdpi xhdpi hdpi
+PRODUCT_AAPT_PREF_CONFIG := xxhdpi
 
 PRODUCT_CHARACTERISTICS := nosdcard
 
