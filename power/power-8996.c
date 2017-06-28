@@ -301,7 +301,6 @@ int power_hint_override(struct power_module *module, power_hint_t hint, void *da
 
 int set_interactive_override(struct power_module *module, int on)
 {
-    return HINT_HANDLED; /* Don't excecute this code path, not in use */
     char governor[80];
 
     if (get_scaling_governor(governor, sizeof(governor)) == -1) {
@@ -314,7 +313,7 @@ int set_interactive_override(struct power_module *module, int on)
         /* Display off */
         if ((strncmp(governor, INTERACTIVE_GOVERNOR, strlen(INTERACTIVE_GOVERNOR)) == 0) &&
             (strlen(governor) == strlen(INTERACTIVE_GOVERNOR))) {
-            int resource_values[] = {}; /* dummy node */
+            int resource_values[] = {};
             if (!display_hint_sent) {
                 perform_hint_action(DISPLAY_STATE_HINT_ID,
                 resource_values, sizeof(resource_values)/sizeof(resource_values[0]));
