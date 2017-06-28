@@ -355,12 +355,8 @@ ro.display.series=Le Pro3
 # Fingerprint
 persist.qfp=false
 
-# Display power reduction (FOSS)
-ro.qcom.dpps.sensortype=3
+# Display
 ro.qualcomm.display.paneltype=1
-ro.qualcomm.foss=1
-config.foss.xml=1
-config.foss.path="/system/etc/FOSSConfig.xml"
 
 #volte
 persist.radio.cs_srv_type=0
