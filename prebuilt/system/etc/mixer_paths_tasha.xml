@@ -535,7 +535,8 @@
     <ctl name="Left Feedback Enable" value="ON" />
     <ctl name="Right Feedback Enable" value="ON" />
     <ctl name="Speaker Volume" value="1" />
-    <ctl name="Digital Gain" value="40" />
+    <ctl name="Left Digital Gain" value="40" />
+    <ctl name="Right Digital Gain" value="40" />
     <!--MAX98927 Smart PA end-->
 
     <!-- ADSP testfwk -->
@@ -2023,7 +2024,8 @@
         <ctl name="Amp Volume Location" value="0" />
         -->
         <ctl name="Speaker Volume" value="5" />
-        <ctl name="Digital Gain" value="56" />
+        <ctl name="Left Digital Gain" value="48" />
+        <ctl name="Right Digital Gain" value="64" />
         <ctl name="Left Channel Enable" value="1" />
         <ctl name="Right Channel Enable" value="1" />
     </path>
@@ -2032,7 +2034,8 @@
         <ctl name="Boost Output Voltage" value="10V" />
         <ctl name="Right Feedback Enable" value="ON" />
         <ctl name="Speaker Volume" value="6" />
-        <ctl name="Digital Gain" value="66" />
+        <ctl name="Left Digital Gain" value="66" />
+        <ctl name="Right Digital Gain" value="66" />
         <ctl name="Left Channel Enable" value="0" />
         <ctl name="Right Channel Enable" value="1" />
     </path>
@@ -2049,7 +2052,8 @@
         <ctl name="Amp Volume Location" value="0" />
         -->
         <ctl name="Speaker Volume" value="5" />
-        <ctl name="Digital Gain" value="56" />
+        <ctl name="Left Digital Gain" value="0" />
+        <ctl name="Right Digital Gain" value="56" />
         <ctl name="Left Channel Enable" value="0" />
         <ctl name="Right Channel Enable" value="1" />
     </path>
@@ -2066,7 +2070,8 @@
         <ctl name="Amp Volume Location" value="0" />
         -->
         <ctl name="Speaker Volume" value="5" />
-        <ctl name="Digital Gain" value="56" />
+        <ctl name="Left Digital Gain" value="56" />
+        <ctl name="Right Digital Gain" value="56" />
         <ctl name="Left Channel Enable" value="1" />
         <ctl name="Right Channel Enable" value="0" />
     </path>
@@ -2084,7 +2089,8 @@
         <ctl name="Amp Volume Location" value="0" />
         -->
         <ctl name="Speaker Volume" value="5" />
-        <ctl name="Digital Gain" value="56" />
+        <ctl name="Left Digital Gain" value="56" />
+        <ctl name="Right Digital Gain" value="56" />
         <ctl name="Left Channel Enable" value="1" />
         <ctl name="Right Channel Enable" value="1" />
     </path>
@@ -2113,7 +2119,8 @@
         <ctl name="Amp Volume Location" value="0" />
         -->
         <ctl name="Speaker Volume" value="5" />
-        <ctl name="Digital Gain" value="56" />
+        <ctl name="Left Digital Gain" value="56" />
+        <ctl name="Right Digital Gain" value="56" />
         <ctl name="Left Channel Enable" value="0" />
         <ctl name="Right Channel Enable" value="1" />
     </path>
@@ -2226,7 +2233,8 @@
         <ctl name="Amp Volume Location" value="0" />
         -->
         <ctl name="Speaker Volume" value="1" />
-        <ctl name="Digital Gain" value="15" />
+        <ctl name="Left Digital Gain" value="15" />
+        <ctl name="Right Digital Gain" value="0" />
         <ctl name="Left Channel Enable" value="1" />
         <ctl name="Right Channel Enable" value="0" />
     </path>
@@ -2279,7 +2287,8 @@
         <ctl name="Amp Volume Location" value="0" />
         -->
         <ctl name="Speaker Volume" value="1" />
-        <ctl name="Digital Gain" value="40" />
+        <ctl name="Left Digital Gain" value="40" />
+        <ctl name="Right Digital Gain" value="0" />
         <ctl name="Left Channel Enable" value="1" />
         <ctl name="Right Channel Enable" value="0" />
     </path>
@@ -2372,7 +2381,8 @@
         <ctl name="Amp Volume Location" value="0" />
         -->
         <ctl name="Speaker Volume" value="5" />
-        <ctl name="Digital Gain" value="66" />
+        <ctl name="Left Digital Gain" value="66" />
+        <ctl name="Right Digital Gain" value="66" />
         <ctl name="Left Channel Enable" value="0" />
         <ctl name="Right Channel Enable" value="1" />
     </path>
@@ -2390,7 +2400,8 @@
         <ctl name="Amp Volume Location" value="0" />
         -->
         <ctl name="Speaker Volume" value="5" />
-        <ctl name="Digital Gain" value="66" />
+        <ctl name="Left Digital Gain" value="66" />
+        <ctl name="Right Digital Gain" value="66" />
         <ctl name="Left Channel Enable" value="1" />
         <ctl name="Right Channel Enable" value="1" />
     </path>
@@ -2856,3 +2867,4 @@
     <path name="voice-rx">
     </path>
 </mixer>
+
