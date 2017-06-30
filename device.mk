@@ -289,10 +289,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libcommon_time_client
 
-#healthd
-PRODUCT_PACKAGES += \
-    libhealthd.msm8996
-
 # SDCARDFS
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.sys.sdcardfs=true \
@@ -306,5 +302,6 @@ PRODUCT_PACKAGES += \
 #PRODUCT_PACKAGES += \
     qdcm_calib_data_mdss_dsi_ft8716_1080p_video.xml \
     qdcm_calib_data_mdss_dsi_s6d6fa1_1080p_video.xml
+
 
 
