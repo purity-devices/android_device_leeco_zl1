@@ -246,9 +246,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     DeviceParts
 
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/FOSSConfig.xml:system/etc/FOSSConfig.xml
-
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService \
@@ -288,6 +285,11 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_PACKAGES += \
     libcommon_time_client
+
+# SDCARDFS
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.sys.sdcardfs=true \
+    ro.sdcardfs.enable=true
 
 #wifi
 PRODUCT_PACKAGES += \

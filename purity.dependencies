@@ -1,25 +1,25 @@
 [
   {
-    "remote": "omnirom",
+    "remote": "AndroidRul3z",
     "repository": "android_hardware_qcom_display-caf-msm8996",
     "target_path": "hardware/qcom/display-caf-msm8996",
     "revision": "android-7.1"
   },
   {
-    "remote": "omnirom",
+    "remote": "AndroidRul3z",
     "repository": "android_hardware_qcom_audio-caf-msm8996",
     "target_path": "hardware/qcom/audio-caf-msm8996",
     "revision": "android-7.1"
   },
   {
-    "remote": "omnirom",
+    "remote": "AndroidRul3z",
     "repository": "android_hardware_qcom_media-caf-msm8996",
     "target_path": "hardware/qcom/media-caf-msm8996",
     "revision": "android-7.1"
   },
   {
-    "remote": "omnirom",
-    "repository": "android_packages_apps_SnapdragonCamera",
+    "remote": "github",
+    "repository": "AndroidRul3z/android_packages_apps_SnapdragonCamera",
     "target_path": "packages/apps/SnapdragonCamera",
     "revision": "android-7.1"
   },
@@ -42,7 +42,7 @@
     "revision": "android-7.1"
   },
   {
-    "remote": "omnirom",
+    "remote": "AndroidRul3z",
     "repository": "android_device_qcom_caf-sepolicy",
     "target_path": "device/qcom/sepolicy",
     "revision": "android-7.1"
@@ -66,6 +66,7 @@
     "revision": "android-7.1"
   },
   {
+    "remote": "omnirom",
     "repository": "android_external_ant-wireless_antradio-library",
     "target_path": "external/ant-wireless/antradio-library",
     "revision": "android-7.1"
@@ -83,9 +84,22 @@
     "revision": "android-7.1"
   },
   {
-    "remote": "omnirom",
-    "repository": "android_kernel_leeco_msm8996",
+    "remote": "github",
+    "repository": "purity-devices/android_kernel_leeco_msm8996",
     "target_path": "kernel/leeco/msm8996",
+    "revision": "android-7.1"
+  },
+  {
+    "remote": "github",
+    "repository": "DonkeyCoyote/proprietary_vendor_qcom_binaries",
+    "target_path": "vendor/qcom/binaries",
+    "revision": "cm-14.1"
+  },
+  {
+    "remote": "github",
+    "repository": "DonkeyCoyote/proprietary_vendor_leeco",
+    "target_path": "vendor/leeco",
     "revision": "android-7.1"
   }
 ]
+
