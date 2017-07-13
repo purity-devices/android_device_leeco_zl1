@@ -289,7 +289,7 @@ PRODUCT_PACKAGES += \
 
 #healthd
 PRODUCT_PACKAGES += \
-    libhealthd.msm899
+    libhealthd.msm8996
 
 # SDCARDFS
 PRODUCT_PROPERTY_OVERRIDES += \
