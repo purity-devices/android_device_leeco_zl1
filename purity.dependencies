@@ -97,7 +97,7 @@
   },
   {
     "remote": "github",
-    "repository": "DonkeyCoyote/proprietary_vendor_leeco",
+    "repository": "purity-devices/proprietary_vendor_leeco",
     "target_path": "vendor/leeco",
     "revision": "android-7.1"
   }
