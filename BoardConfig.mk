@@ -202,6 +202,8 @@ BOARD_HAL_STATIC_LIBRARIES := libhealthd.msm8996
 BOARD_CHARGER_ENABLE_SUSPEND := true
 BOARD_CHARGER_DISABLE_INIT_BLANK := true
 HEALTHD_ENABLE_TRICOLOR_LED := true
+BOARD_HEALTHD_CUSTOM_CHARGER_RES := $(BOARD_PATH)/charger/images
+
 # not really for recovery anymor... but healthd still uses it
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_23x41.h\"
 
