@@ -100,6 +100,12 @@
     "repository": "purity-devices/proprietary_vendor_leeco",
     "target_path": "vendor/leeco",
     "revision": "android-7.1"
+  },
+  {
+    "remote": "github",
+    "repository": "omnirom/android_external_json-c",
+    "target_path": "external/json-c",
+    "revision": "android-7.1"
   }
 ]
 
